@@ -13,6 +13,7 @@ public class Main {
     private TwoCityScheduling _twoCityScheduling = new TwoCityScheduling();
     private CharacterString _characterString = new CharacterString();
     private RandomPick _randomPick = new RandomPick();
+    private QueueReconstruction _queusReconstructor = new QueueReconstruction();
 
     public static void main(String[] args) {
         System.out.println("Hello World.");
@@ -23,6 +24,7 @@ public class Main {
 //        _main.twoCityScheduling();
 //        _main.characterString();
         _main._randomPick();
+        _main._queusReconstructor();
     }
 
     void testPotato(){
@@ -96,6 +98,10 @@ public class Main {
 
     void _randomPick(){
         _randomPick.weighterPick();
+
+    }
+
+    void _queusReconstructor(){
 
     }
 
